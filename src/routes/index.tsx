@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
+import heroImage from "@/assets/hero.jpg.asset.json";
 import {
   ArrowRight,
   Leaf,
@@ -27,16 +28,22 @@ function Index() {
   return (
     <SiteLayout>
       <section className="relative overflow-hidden bg-[color:var(--forest-deep)] text-[color:var(--primary-foreground)]">
-        <div className="absolute inset-0 bg-gradient-to-br from-[color:var(--forest)] via-[color:var(--forest-deep)] to-[color:var(--ocean)] opacity-60" />
-        <div className="relative mx-auto grid max-w-7xl gap-12 px-4 py-24 sm:px-6 md:grid-cols-2 md:py-32">
-          <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/80">
+        <img
+          src={heroImage.url}
+          alt="Hiker overlooking a waterfall cascading into a turquoise cove along South Africa's Wild Coast"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--forest-deep)]/95 via-[color:var(--forest-deep)]/55 to-[color:var(--forest-deep)]/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--forest-deep)]/80 via-transparent to-transparent" />
+        <div className="relative mx-auto flex max-w-7xl flex-col px-4 pb-20 pt-28 sm:px-6 md:min-h-[88vh] md:justify-end md:pb-24 md:pt-40">
+          <div className="max-w-2xl">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/90 backdrop-blur">
               <Leaf className="h-3.5 w-3.5" /> Ecotourism · Wild Coast
             </span>
-            <h1 className="mt-6 text-5xl font-black leading-[1.05] tracking-tight sm:text-6xl md:text-7xl">
-              Indlela <br />Adventures
+            <h1 className="mt-6 text-5xl font-black leading-[1.02] tracking-tight drop-shadow-lg sm:text-6xl md:text-7xl lg:text-8xl">
+              Indlela Adventures
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-white/85 sm:text-xl">
+            <p className="mt-6 max-w-xl text-lg text-white/90 sm:text-xl">
               Community-based Wild Coast hiking tours in South Africa.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
@@ -48,15 +55,10 @@ function Index() {
               </Link>
               <Link
                 to="/packages"
-                className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+                className="inline-flex items-center gap-2 rounded-full border border-white/40 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/15"
               >
                 View hiking packages
               </Link>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/10 bg-white/5">
-              <ImagePlaceholder label="Wild Coast hero image" tone="dark" />
             </div>
           </div>
         </div>
