@@ -76,12 +76,12 @@ function Index() {
               Experience & Impact
             </span>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
-              Every step protects a coastline.
+              Every step protects this coastline.
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              The Wild Coast is one of Africa's last untouched shorelines — and one of the most
-              threatened. By walking it with us, you put income directly into the rural villages
-              who host you, sustain a working alternative to destructive titanium mining, and help
+              The Wild Coast is known for its pristine, untouched shorelines — but it is among the
+              most threatened. By walking it with us, you put income directly into the rural
+              villages who host you, sustain a working alternative to destructive land use, and help
               prove this land is worth more wild than dug up.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
