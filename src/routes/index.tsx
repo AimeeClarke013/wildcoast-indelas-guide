@@ -111,14 +111,14 @@ function Index() {
               Local guides. Honest trails. Real impact.
             </h2>
           </div>
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { icon: Users, title: "Born of the land", body: "Your guides grew up in the very villages you'll sleep in. They know every river, ridge, and story." },
-              { icon: Heart, title: "Community-first", body: "Fees go directly to the families hosting you — accommodation, meals, porters, and crafts." },
-              { icon: Shield, title: "Safety as standard", body: "Trained guides, tested routes, emergency protocols, and small group sizes." },
-              { icon: Leaf, title: "Low impact, high meaning", body: "Carry-in, carry-out ethics. Plastic-free meals. Trails that leave nothing behind." },
-              { icon: Compass, title: "Wild but accessible", body: "Routes from gentle 3-night strolls to immersive 2-week traverses." },
-              { icon: Quote, title: "Stories along the way", body: "Indlela means 'the path.' Yours will be filled with songs, ceremony, and shared meals." },
+              { icon: Users, title: "100% community-based tourism", body: "Every cent you spend directly empowers local hosts and keeps vital funding entirely within the villages you visit." },
+              { icon: Compass, title: "Custom routes for all fitness levels", body: "We can tailor daily walking distances and terrain difficulty to match your preferences." },
+              { icon: Sparkles, title: "Luxury & standard options", body: "Choose between a rustic village homestay experience or upgraded premium/eco-lodge facilities." },
+              { icon: ShieldCheck, title: "Protecting the Wild Coast from exploitation", body: "Your footprint actively funds a sustainable economic alternative to destructive mining and commercial development." },
+              { icon: Calendar, title: "Available all year round", body: "Experience the breathtaking beauty of the dramatic coastline during whichever season best fits your travel schedule." },
+              { icon: Tag, title: "Discounts available", body: "Enjoy special cost savings when you book during our quiet winter months or when travelling as a larger group." },
             ].map((b) => (
               <div key={b.title} className="rounded-2xl border border-border bg-card p-6 transition hover:-translate-y-1 hover:shadow-lg">
                 <span className="grid h-11 w-11 place-items-center rounded-xl bg-[color:var(--forest)] text-[color:var(--primary-foreground)]">
