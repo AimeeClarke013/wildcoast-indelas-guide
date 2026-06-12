@@ -6,8 +6,10 @@ import {
   Leaf,
   Users,
   Compass,
-  Heart,
-  Shield,
+  Sparkles,
+  ShieldCheck,
+  Calendar,
+  Tag,
   Image as ImageIcon,
   Quote,
 } from "lucide-react";
