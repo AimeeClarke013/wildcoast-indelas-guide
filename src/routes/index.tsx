@@ -78,7 +78,7 @@ function Index() {
               Experience & Impact
             </span>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
-              Every step protects this coastline.
+              Multi-day hikes where every step protects the coastline.
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
               The Wild Coast is known for its pristine, untouched shorelines — but it is among the
@@ -90,7 +90,7 @@ function Index() {
             {[
               { icon: Home, label: "Funds stay in the village" },
               { icon: Coins, label: "Employment for local guides and hosts" },
-              { icon: Leaf, label: "Ecotourism instead of mining, malls and highways" },
+              { icon: Leaf, label: "Ecotourism over mining, malls and highways" },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl border border-border bg-card p-5">
                 <s.icon className="h-5 w-5 text-[color:var(--ocean)]" />
