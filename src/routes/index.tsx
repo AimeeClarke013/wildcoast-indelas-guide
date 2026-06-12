@@ -68,6 +68,14 @@ function Index() {
         </div>
       </section>
 
+      <section className="bg-[color:var(--forest-deep)] py-20 text-center text-[color:var(--primary-foreground)] sm:py-28">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <p className="text-2xl font-medium leading-relaxed sm:text-3xl md:text-4xl">
+            Hike the unspoiled coastline of the Mpondoland Wild Coast, staying in local villages along the way.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-background py-24">
         <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 md:grid-cols-2 md:items-center">
           <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-muted">
