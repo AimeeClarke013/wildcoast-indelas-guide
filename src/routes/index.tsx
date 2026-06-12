@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import heroImage from "@/assets/hero.jpg.asset.json";
+import coastlineImage from "@/assets/cathedralrockgroup.jpg.asset.json";
 import {
   ArrowRight,
   Leaf,
@@ -71,7 +72,11 @@ function Index() {
       <section className="bg-background py-24">
         <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 md:grid-cols-2 md:items-center">
           <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-muted">
-            <ImagePlaceholder label="Coastline & villages" />
+            <img
+              src={coastlineImage.url}
+              alt="Hikers gathered on a cliff edge above Cathedral Rock arch on the Wild Coast"
+              className="h-full w-full object-cover"
+            />
           </div>
           <div>
             <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--ocean)]">
