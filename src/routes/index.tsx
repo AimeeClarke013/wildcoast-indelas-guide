@@ -1,0 +1,178 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { SiteLayout } from "@/components/SiteLayout";
+import {
+  ArrowRight,
+  Leaf,
+  Users,
+  Compass,
+  Heart,
+  Shield,
+  Image as ImageIcon,
+  Quote,
+} from "lucide-react";
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Indlela Adventures — Community-based Wild Coast Hiking Tours" },
+      { name: "description", content: "Walk South Africa's pristine Wild Coast with the people who call it home. Community-led hiking tours that protect the land." },
+      { property: "og:title", content: "Indlela Adventures — Wild Coast Hiking Tours" },
+      { property: "og:description", content: "Community-based hiking tours along South Africa's Wild Coast." },
+    ],
+  }),
+  component: Index,
+});
+
+function Index() {
+  return (
+    <SiteLayout>
+      <section className="relative overflow-hidden bg-[color:var(--forest-deep)] text-[color:var(--primary-foreground)]">
+        <div className="absolute inset-0 bg-gradient-to-br from-[color:var(--forest)] via-[color:var(--forest-deep)] to-[color:var(--ocean)] opacity-60" />
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-4 py-24 sm:px-6 md:grid-cols-2 md:py-32">
+          <div>
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/80">
+              <Leaf className="h-3.5 w-3.5" /> Ecotourism · Wild Coast
+            </span>
+            <h1 className="mt-6 text-5xl font-black leading-[1.05] tracking-tight sm:text-6xl md:text-7xl">
+              Indlela <br />Adventures
+            </h1>
+            <p className="mt-6 max-w-xl text-lg text-white/85 sm:text-xl">
+              Community-based Wild Coast hiking tours in South Africa.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <Link
+                to="/packages"
+                className="inline-flex items-center gap-2 rounded-full bg-[color:var(--sand)] px-6 py-3 text-sm font-semibold text-[color:var(--forest-deep)] transition hover:opacity-90"
+              >
+                Plan your Wild Coast hike <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                to="/packages"
+                className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+              >
+                View hiking packages
+              </Link>
+            </div>
+          </div>
+          <div className="relative">
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/10 bg-white/5">
+              <ImagePlaceholder label="Wild Coast hero image" tone="dark" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-background py-24">
+        <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 md:grid-cols-2 md:items-center">
+          <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl bg-muted">
+            <ImagePlaceholder label="Coastline & villages" />
+          </div>
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--ocean)]">
+              Experience & Impact
+            </span>
+            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
+              Every step protects a coastline.
+            </h2>
+            <p className="mt-6 text-lg text-muted-foreground">
+              The Wild Coast is one of Africa's last untouched shorelines — and one of the most
+              threatened. By walking it with us, you put income directly into the rural villages
+              who host you, sustain a working alternative to destructive titanium mining, and help
+              prove this land is worth more wild than dug up.
+            </p>
+            <div className="mt-8 grid gap-4 sm:grid-cols-3">
+              {[
+                { icon: Users, stat: "100%", label: "Community owned" },
+                { icon: Leaf, stat: "0", label: "Mines, not on our watch" },
+                { icon: Compass, stat: "60km+", label: "Of pristine coast" },
+              ].map((s) => (
+                <div key={s.label} className="rounded-2xl border border-border bg-card p-5">
+                  <s.icon className="h-5 w-5 text-[color:var(--ocean)]" />
+                  <div className="mt-3 text-2xl font-black">{s.stat}</div>
+                  <div className="text-xs text-muted-foreground">{s.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[color:var(--sand)]/40 py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="max-w-2xl">
+            <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--forest)]">
+              Why Hike With Us?
+            </span>
+            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
+              Local guides. Honest trails. Real impact.
+            </h2>
+          </div>
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            {[
+              { icon: Users, title: "Born of the land", body: "Your guides grew up in the very villages you'll sleep in. They know every river, ridge, and story." },
+              { icon: Heart, title: "Community-first", body: "Fees go directly to the families hosting you — accommodation, meals, porters, and crafts." },
+              { icon: Shield, title: "Safety as standard", body: "Trained guides, tested routes, emergency protocols, and small group sizes." },
+              { icon: Leaf, title: "Low impact, high meaning", body: "Carry-in, carry-out ethics. Plastic-free meals. Trails that leave nothing behind." },
+              { icon: Compass, title: "Wild but accessible", body: "Routes from gentle 3-night strolls to immersive 2-week traverses." },
+              { icon: Quote, title: "Stories along the way", body: "Indlela means 'the path.' Yours will be filled with songs, ceremony, and shared meals." },
+            ].map((b) => (
+              <div key={b.title} className="rounded-2xl border border-border bg-card p-6 transition hover:-translate-y-1 hover:shadow-lg">
+                <span className="grid h-11 w-11 place-items-center rounded-xl bg-[color:var(--forest)] text-[color:var(--primary-foreground)]">
+                  <b.icon className="h-5 w-5" />
+                </span>
+                <h3 className="mt-5 text-lg font-bold">{b.title}</h3>
+                <p className="mt-2 text-sm text-muted-foreground">{b.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-background py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--ocean)]">
+              Testimonials
+            </span>
+            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
+              Hikers, in their own words.
+            </h2>
+          </div>
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            {[1, 2, 3].map((i) => (
+              <figure key={i} className="rounded-2xl border border-border bg-card p-6">
+                <Quote className="h-6 w-6 text-[color:var(--ocean)]" />
+                <blockquote className="mt-4 text-base text-foreground/90">
+                  "Replace this with a real quote from one of your hikers. Keep it short, vivid,
+                  and tied to the Wild Coast experience."
+                </blockquote>
+                <figcaption className="mt-5 flex items-center gap-3">
+                  <span className="h-10 w-10 rounded-full bg-[color:var(--sand)]" />
+                  <div>
+                    <div className="text-sm font-semibold">Hiker Name</div>
+                    <div className="text-xs text-muted-foreground">5-night route · 2024</div>
+                  </div>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+    </SiteLayout>
+  );
+}
+
+function ImagePlaceholder({ label, tone = "light" }: { label: string; tone?: "light" | "dark" }) {
+  return (
+    <div
+      className={`flex h-full w-full items-center justify-center text-sm font-medium ${
+        tone === "dark" ? "bg-white/5 text-white/60" : "bg-muted text-muted-foreground"
+      }`}
+    >
+      <div className="flex flex-col items-center gap-2 p-6 text-center">
+        <ImageIcon className="h-7 w-7 opacity-60" />
+        <span>{label}</span>
+      </div>
+    </div>
+  );
+}
