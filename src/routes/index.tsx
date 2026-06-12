@@ -12,6 +12,8 @@ import {
   Tag,
   Image as ImageIcon,
   Quote,
+  Home,
+  Coins,
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -85,17 +87,16 @@ function Index() {
               prove this land is worth more wild than dug up.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {[
-                { icon: Users, stat: "100%", label: "Community owned" },
-                { icon: Leaf, stat: "0", label: "Mines, not on our watch" },
-                { icon: Compass, stat: "60km+", label: "Of pristine coast" },
-              ].map((s) => (
-                <div key={s.label} className="rounded-2xl border border-border bg-card p-5">
-                  <s.icon className="h-5 w-5 text-[color:var(--ocean)]" />
-                  <div className="mt-3 text-2xl font-black">{s.stat}</div>
-                  <div className="text-xs text-muted-foreground">{s.label}</div>
-                </div>
-              ))}
+            {[
+              { icon: Home, label: "Funds stay in the village" },
+              { icon: Coins, label: "Employment for local guides and hosts" },
+              { icon: Leaf, label: "Ecotourism instead of mining, malls and highways" },
+            ].map((s) => (
+              <div key={s.label} className="rounded-2xl border border-border bg-card p-5">
+                <s.icon className="h-5 w-5 text-[color:var(--ocean)]" />
+                <div className="mt-3 text-base font-bold leading-snug">{s.label}</div>
+              </div>
+            ))}
             </div>
           </div>
         </div>
