@@ -105,10 +105,10 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="max-w-2xl">
             <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--forest)]">
-              Why Hike With Us?
+              
             </span>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
-              Local guides. Honest trails. Real impact.
+              Why hike with us?
             </h2>
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
