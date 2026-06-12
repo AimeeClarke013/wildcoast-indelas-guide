@@ -12,6 +12,8 @@ import {
   Tag,
   Image as ImageIcon,
   Quote,
+  Home,
+  Coins,
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
