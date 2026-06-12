@@ -1,0 +1,127 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { SiteLayout } from "@/components/SiteLayout";
+import { Image as ImageIcon, Leaf, Shield, Users } from "lucide-react";
+
+export const Route = createFileRoute("/about")({
+  head: () => ({
+    meta: [
+      { title: "About — Indlela Adventures" },
+      { name: "description", content: "Meet Siyabonga Ndovela and the Wild Coast community behind Indlela Adventures — an ecotourism stand against industrial mining." },
+      { property: "og:title", content: "About — Indlela Adventures" },
+      { property: "og:description", content: "The people, the path, and the stand behind Indlela Adventures." },
+    ],
+  }),
+  component: About,
+});
+
+function About() {
+  return (
+    <SiteLayout>
+      <section className="bg-background py-24">
+        <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 md:grid-cols-2 md:items-center">
+          <div className="relative">
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-muted">
+              <ImagePlaceholder label="Portrait of Siya" />
+            </div>
+            <div className="absolute -bottom-6 -right-6 hidden h-32 w-32 rounded-3xl bg-[color:var(--sand)] sm:block" />
+          </div>
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--ocean)]">
+              Meet your guide
+            </span>
+            <h1 className="mt-3 text-5xl font-black tracking-tight sm:text-6xl">
+              Siyabonga <br />Ndovela <span className="text-muted-foreground">— Siya</span>
+            </h1>
+            <p className="mt-6 text-lg text-muted-foreground">
+              Siya was born and raised on the Wild Coast, in the very villages that now host our
+              hikers. He grew up tracing the headlands on foot, learning the names of the rivers
+              from his grandmother and the rhythm of the sea from his uncles.
+            </p>
+            <p className="mt-4 text-lg text-muted-foreground">
+              He founded Indlela Adventures to turn that knowledge into a livelihood for his
+              community — and to give visitors a way to see this coastline through the eyes of the
+              people who belong to it.
+            </p>
+            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+              {[
+                { icon: Users, label: "Born on the coast" },
+                { icon: Shield, label: "Wilderness trained" },
+                { icon: Leaf, label: "Conservation lead" },
+              ].map((t) => (
+                <div key={t.label} className="flex items-center gap-2 rounded-xl border border-border bg-card px-3 py-3 text-sm">
+                  <t.icon className="h-4 w-4 text-[color:var(--forest)]" />
+                  <span>{t.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[color:var(--sand)]/40 py-24">
+        <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 md:grid-cols-[1.1fr_1fr] md:items-center">
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-widest text-[color:var(--forest)]">
+              The Community
+            </span>
+            <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
+              Indlela — the path we chose.
+            </h2>
+            <div className="mt-6 space-y-5 text-lg text-muted-foreground">
+              <p>
+                For years the villages of the Wild Coast have stood at a crossroads. On one side,
+                multinational mining companies promising jobs in exchange for the dunes, the rivers,
+                and the graves of our ancestors. On the other, a slower, harder path: to build a
+                future from what the coast already gives us, without breaking it.
+              </p>
+              <p>
+                We chose the second path. <em>Indlela</em> means "the way" — and ours is one of
+                hosting, walking, fishing, farming, and inviting the world to see why this place
+                is worth protecting. Every booking is a vote for that path.
+              </p>
+              <p>
+                When you walk with us, you stay in homesteads built by our families, eat food
+                grown in our gardens, and pay porters, cooks and guides from our villages. The
+                money does not leave. The land stays whole.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="aspect-[4/3] overflow-hidden rounded-3xl bg-muted">
+              <ImagePlaceholder label="Village & coastline" />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
+                <ImagePlaceholder label="Community life" />
+              </div>
+              <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
+                <ImagePlaceholder label="On the trail" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[color:var(--forest-deep)] py-24 text-[color:var(--primary-foreground)]">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <Leaf className="mx-auto h-10 w-10 text-[color:var(--sand)]" />
+          <p className="mt-6 text-3xl font-black leading-snug tracking-tight sm:text-4xl md:text-5xl">
+            "Indlela Adventures is not an outside tour operator running trips through this land.
+            <span className="text-[color:var(--sand)]"> We are the land's people, inviting you to experience it responsibly."</span>
+          </p>
+        </div>
+      </section>
+    </SiteLayout>
+  );
+}
+
+function ImagePlaceholder({ label }: { label: string }) {
+  return (
+    <div className="flex h-full w-full items-center justify-center bg-muted text-sm font-medium text-muted-foreground">
+      <div className="flex flex-col items-center gap-2 p-6 text-center">
+        <ImageIcon className="h-7 w-7 opacity-60" />
+        <span>{label}</span>
+      </div>
+    </div>
+  );
+}
