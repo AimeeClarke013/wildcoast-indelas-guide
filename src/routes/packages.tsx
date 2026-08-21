@@ -147,12 +147,12 @@ function Packages() {
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             <Discount
               icon={Snowflake}
-              title="Winter discount"
+              title="10% Winter discount "
               body="May–August bookings receive special low-season pricing. Crisp days, empty beaches, glowing fires."
             />
             <Discount
               icon={Users}
-              title="Large group discount"
+              title="10% Large group discount"
               body="Groups of 10+ unlock reduced per-person rates. Perfect for families, friends, and clubs."
             />
           </div>
