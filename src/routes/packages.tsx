@@ -192,12 +192,6 @@ function Packages() {
               end of your hike. Pricing is per group and shared on request.
             </p>
           </div>
-          <Link
-            to="/packages"
-            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--sand)] px-5 py-3 text-sm font-semibold text-[color:var(--forest-deep)]"
-          >
-            Ask about shuttles <ArrowRight className="h-4 w-4" />
-          </Link>
         </div>
       </section>
     </SiteLayout>
@@ -239,16 +233,6 @@ function PriceCard({
           </li>
         ))}
       </ul>
-      <Link
-        to="/packages"
-        className={`mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold transition ${
-          isFeatured
-            ? "bg-[color:var(--sand)] text-[color:var(--forest-deep)] hover:opacity-90"
-            : "bg-[color:var(--forest)] text-[color:var(--primary-foreground)] hover:opacity-90"
-        }`}
-      >
-        Choose {tag} <ArrowRight className="h-4 w-4" />
-      </Link>
     </div>
   );
 }
@@ -283,9 +267,6 @@ function FeatureBlock({ icon: Icon, tag, title, body, cta, image }: { icon: type
         </div>
         <h3 className="mt-3 text-2xl font-black tracking-tight">{title}</h3>
         <p className="mt-3 text-muted-foreground">{body}</p>
-        <Link to="/packages" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[color:var(--ocean)] hover:underline">
-          {cta} <ArrowRight className="h-4 w-4" />
-        </Link>
       </div>
     </div>
   );
