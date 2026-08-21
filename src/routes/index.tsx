@@ -149,18 +149,33 @@ function Index() {
             </h2>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            {[1, 2, 3].map((i) => (
-              <figure key={i} className="rounded-2xl border border-border bg-card p-6">
-                <Quote className="h-6 w-6 text-[color:var(--ocean)]" />
-                <blockquote className="mt-4 text-base text-foreground/90">
-                  "Replace this with a real quote from one of your hikers. Keep it short, vivid,
-                  and tied to the Wild Coast experience."
+            {[
+              {
+                quote: "We did a 5 day hike with Siya, from Port St John's to Wild Coast Sun and it was mind blowing and life changing! I was taken humbled by how welcoming and open Siya and the Mpondo people are! In each home stay I felt connected and held by the community.",
+                name: "Mienke Richter",
+                meta: "4-night route · 2026",
+              },
+              {
+                quote: "A life changing experience on the Wild Coast. Siya is an absolute legend, his knowledge of the Eastern Cape and his energy for the area is unmatched.\n\nWe went with the comfort package and were so well looked after. The food was great and hospitality of the local families was such a unique and fun experience, but the absolute highlight for me was definitely the scenery along the way and all the remote swim spots. If you’re looking for a proper, authentic adventure, I highly recommend Indlela Adventures",
+                name: "Nick Meyjes",
+                meta: "5-night route · 2021",
+              },
+              {
+                quote: "We had such an incredible trip with Siya! He designed the tour based on what we were hoping to get out of our hike and the groups activity level. He took such good care of us. It was an honor to hear his stories of the land, the socio/political dynamics of the Pondo people, the history, and also the communities hopes for the future. I was humbled by the generosity shown at the homestays, it was great! So excited to come back!.",
+                name: "Kate Marsay",
+                meta: "4-night route · 2026",
+              },
+            ].map((t, i) => (
+              <figure key={i} className="rounded-2xl border border-border bg-card p-6 flex flex-col">
+                <Quote className="h-6 w-6 text-[color:var(--ocean)] shrink-0" />
+                <blockquote className="mt-4 text-base text-foreground/90 whitespace-pre-wrap flex-grow">
+                  "{t.quote}"
                 </blockquote>
                 <figcaption className="mt-5 flex items-center gap-3">
-                  <span className="h-10 w-10 rounded-full bg-[color:var(--sand)]" />
+                  <span className="h-10 w-10 rounded-full bg-[color:var(--sand)] shrink-0" />
                   <div>
-                    <div className="text-sm font-semibold">Hiker Name</div>
-                    <div className="text-xs text-muted-foreground">5-night route · 2024</div>
+                    <div className="text-sm font-semibold">{t.name}</div>
+                    <div className="text-xs text-muted-foreground">{t.meta}</div>
                   </div>
                 </figcaption>
               </figure>
