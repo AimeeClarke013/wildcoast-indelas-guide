@@ -23,7 +23,7 @@ export const Route = createFileRoute("/faqs")({
 const faqs = [
   {
     q: "Is the Wild Coast safe to hike?",
-    a: "Yes. Our routes have been walked by guides who grew up here, and every group is led by a trained local guide. We stick to community-known trails, sleep in homesteads or eco-lodges, and maintain regular check-ins with village partners along the way.",
+    a: "Yes. The routes are well maintained, and our guides are trained to read the tides so that all river crossings are as safe as possible. We stick to community-known trails, sleep in homesteads or eco-lodges, and maintain regular check-ins with village partners along the way. The community values your business, and is committed to keeping you safe.",
   },
   {
     q: "What level of fitness do I need?",
