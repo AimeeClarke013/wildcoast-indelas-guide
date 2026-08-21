@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Where does drinking water come from?",
-    a: "We provide safe, filtered drinking water at every overnight stop. On the trail, your guide carries a filter and treatment supplies. We strongly discourage single-use plastic bottles — bring a refillable bottle or hydration bladder.",
+    a: "Drinking water is sourced from rainwater and from local streams – all safe to drink. However, people with sensitive stomachs (or those who don't want to risk it) are advised to bring water purification tablets.",
   },
   {
     q: "How exactly does my booking support the community?",
