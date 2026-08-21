@@ -2,6 +2,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import schoolAsset from "@/assets/school_trips.jpg.asset.json";
 import corporateAsset from "@/assets/corporateretreats.jpg.asset.json";
+import coastalTasterAsset from "@/assets/coastal_taster.jpg.asset.json";
+import villageHighlightsAsset from "@/assets/village_highlights.jpg.asset.json";
+import deepCoastAsset from "@/assets/deep_coast.jpg.asset.json";
+import fullTraverseAsset from "@/assets/full_traverse.jpg.asset.json";
 import {
   Check,
   Clock,
@@ -29,10 +33,10 @@ export const Route = createFileRoute("/packages")({
 });
 
 const routes = [
-  { nights: "3 nights", title: "Coastal Taster", desc: "A short, scenic introduction to the Wild Coast — perfect for first-timers and weekenders." },
-  { nights: "5 nights", title: "Village Highlights", desc: "Our most loved route. River mouths, headland villages and golden beaches." },
-  { nights: "9 nights", title: "Deep Coast", desc: "Long days, dramatic cliffs and quiet bays few outsiders ever see." },
-  { nights: "2 weeks", title: "Full Traverse", desc: "The complete Wild Coast journey — immersive, transformative, end to end." },
+  { nights: "3 nights", title: "Coastal Taster", desc: "A short, scenic introduction to the Wild Coast — perfect for first-timers and weekenders.", image: coastalTasterAsset.url },
+  { nights: "5 nights", title: "Village Highlights", desc: "Our most loved route. River mouths, headland villages and golden beaches.", image: villageHighlightsAsset.url },
+  { nights: "9 nights", title: "Deep Coast", desc: "Long days, dramatic cliffs and quiet bays few outsiders ever see.", image: deepCoastAsset.url },
+  { nights: "2 weeks", title: "Full Traverse", desc: "The complete Wild Coast journey — immersive, transformative, end to end.", image: fullTraverseAsset.url },
 ];
 
 const traditional = [
@@ -88,7 +92,7 @@ function Packages() {
             {routes.map((r) => (
               <article key={r.nights} className="group overflow-hidden rounded-3xl border border-border bg-card transition hover:-translate-y-1 hover:shadow-xl">
                 <div className="aspect-[4/3] w-full bg-muted">
-                  <ImagePlaceholder label={`${r.nights} route image`} />
+                  <img src={r.image} alt={`${r.title} — ${r.nights} Wild Coast route`} className="h-full w-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[color:var(--ocean)]">
