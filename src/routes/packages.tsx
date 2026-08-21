@@ -165,7 +165,7 @@ function Packages() {
             icon={GraduationCap}
             tag="School trips"
             title="Outdoor learning on a living coastline."
-            body="Designed for schools and youth groups: tailored programs that blend hiking, marine ecology, Mpondo culture and conservation. Trained guides, full safety protocols, and teacher-friendly logistics."
+            body="We have extensive experience hosting school trips of up to 150 pupils. Notably, we’ve hosted Michael House boys every year since 2021. If you’re interested in organising a school trip, please enquire."
             cta="Request a school programme"
             image={schoolAsset.url}
           />
@@ -173,7 +173,7 @@ function Packages() {
             icon={Briefcase}
             tag="Corporate retreats"
             title="Step away. Reset. Reconnect."
-            body="Multi-day retreats for leadership teams and offsites. Workshops by the fire, beach walks between sessions, and a setting that resets perspective."
+            body="Whether you want active teambuilding or a relaxed group vacation, we can host groups of professionals at local lodges and/or more established homestays. Staying in one location for longer means multiple activities can be arranged that cater to all fitness levels."
             cta="Plan a corporate retreat"
             image={corporateAsset.url}
           />
