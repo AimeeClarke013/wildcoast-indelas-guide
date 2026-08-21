@@ -7,6 +7,7 @@ const nav = [
   { to: "/packages", label: "Hiking Packages" },
   { to: "/about", label: "About" },
   { to: "/faqs", label: "FAQs" },
+  { to: "/contact", label: "Contact" },
 ] as const;
 
 export function SiteLayout({ children }: { children: ReactNode }) {
@@ -33,7 +34,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               </Link>
             ))}
             <Link
-              to="/packages"
+              to="/contact"
               className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
             >
               Plan your hike
@@ -99,6 +100,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               <li>Wild Coast, Eastern Cape</li>
               <li>South Africa</li>
               <li>indlelaadventures@gmail.com</li>
+              <li>+27 82 000 0000</li>
             </ul>
           </div>
         </div>

@@ -97,7 +97,7 @@ function Faqs() {
               <p className="mt-1 text-sm text-muted-foreground">Ask us anything. We will reply as soon as cellphone signal allows.</p>
             </div>
             <Link
-              to="/packages"
+              to="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-5 py-3 text-sm font-semibold text-[color:var(--primary-foreground)]"
             >
               Get in touch <ArrowRight className="h-4 w-4" />

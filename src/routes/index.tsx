@@ -53,13 +53,13 @@ function Index() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
-                to="/packages"
+                to="/contact"
                 className="inline-flex items-center gap-2 rounded-full bg-[color:var(--sand)] px-6 py-3 text-sm font-semibold text-[color:var(--forest-deep)] transition hover:opacity-90"
               >
                 Plan your Wild Coast hike <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
-                to="/packages"
+                to="/contact"
                 className="inline-flex items-center gap-2 rounded-full border border-white/40 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/15"
               >
                 View hiking packages
