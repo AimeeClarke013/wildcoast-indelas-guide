@@ -49,6 +49,10 @@ const faqs = [
     q: "Is slack packing available?",
     a: "Slack packing is not available. However, if you prefer to hike without a bag, we can book you into our eco-lodge or one of our premium home-stays, where you can stay for a few days and enjoy day-trips. At special request, we could also arrange a porter (if, for example, there are only 1 or 2 people in a large group who are unable to carry their bag). Speak to your guide about options.",
   },
+  {
+    q: "What does an average day look like?",
+    a: "Wake up between 6 and 7 am to the sound of roosters, and get ready for the day ahead (usually with your swimsuit on underneath your hiking gear). Pack up your things and head to the dining hut for breakfast. Traditional porridge, bread, peanut butter and eggs await you, with a cup of coffee to get you going. Your lunch for the day will also be laid out, ready for you to pack into your bag: fruit, juice, a sandwich and more.\n\nAfter a show of gratitude to your hosts, head out between 8 and 9 and start your journey towards the next overnight village. Along the way, enjoy what the route has to offer. This could be a river crossing and a shipwreck site, a cliff dive and a waterfall, or a legendary story from your guide. Stop for a long lunch and perhaps a nap in the shade.\n\nAs the afternoon progresses, you’ll reach your next stop between 4 and 6 pm. Settle in, grab a drink from the local shabeen (bar) – only available in 700ml bottles, of course. Play cards, stretch, shower, explore the village or get to know your hosts. The evening is yours.\n\nAt about 7 pm, enjoy a traditional dinner made just for you with fresh, locally-grown ingredients. Over dinner, reflect with your friends and guide on the incredible day you just had, and discuss plans for tomorrow. After dinner, perhaps you’ll be visited by traditional Mpondo dancers, or the local children will put on a show for you (tipping is encouraged).\n\nFinally, head to your group’s sleeping hut to recharge for another great day tomorrow.",
+  },
 ];
 
 function Faqs() {
