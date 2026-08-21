@@ -91,7 +91,11 @@ function About() {
           </div>
           <div className="grid gap-4">
             <div className="aspect-[4/3] overflow-hidden rounded-3xl bg-muted">
-              <ImagePlaceholder label="Village & coastline" />
+              <img
+                src={villageImage.url}
+                alt="Village and coastline"
+                className="h-full w-full object-cover"
+              />
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
