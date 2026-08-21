@@ -33,10 +33,10 @@ export const Route = createFileRoute("/packages")({
 });
 
 const routes = [
-  { nights: "3 nights", title: "Coastal Taster", desc: "A short, scenic introduction to the Wild Coast — perfect for first-timers and weekenders.", image: coastalTasterAsset.url },
-  { nights: "5 nights", title: "Village Highlights", desc: "Our most loved route. River mouths, headland villages and golden beaches.", image: villageHighlightsAsset.url },
-  { nights: "9 nights", title: "Deep Coast", desc: "Long days, dramatic cliffs and quiet bays few outsiders ever see.", image: deepCoastAsset.url },
-  { nights: "2 weeks", title: "Full Traverse", desc: "The complete Wild Coast journey — immersive, transformative, end to end.", image: fullTraverseAsset.url },
+  { nights: "3 nights", title: "Coastal Taster", desc: "Port Edward to Mtentu River. Get a feel for what this land has to offer.", image: coastalTasterAsset.url },
+  { nights: "5 nights", title: "Village Highlights", desc: "Port Edward to Mbotji. See the main sights that we're known for.", image: villageHighlightsAsset.url },
+  { nights: "9 nights", title: "Deep Coast", desc: "Port Edward to Port St Johns. Find untouched beauty that few have seen.", image: deepCoastAsset.url },
+  { nights: "2 weeks", title: "Full Traverse", desc: "Same route as Deep Coast, +2 nights in some places to explore hidden treasures.", image: fullTraverseAsset.url },
 ];
 
 const traditional = [
