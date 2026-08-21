@@ -59,7 +59,7 @@ function Faqs() {
             Good questions, honestly answered.
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-white/80">
-            The most common things hikers want to know before walking the Wild Coast with us. Can't find your answer? Reach out — we reply quickly.
+            The most common things hikers want to know before walking the Wild Coast with us.&nbsp;
           </p>
         </div>
       </section>
