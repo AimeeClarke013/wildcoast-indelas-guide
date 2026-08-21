@@ -38,8 +38,8 @@ const faqs = [
     a: "A percentage of every hiking fee goes directly into community development and conservation initiatives. At every part of your journey, you support local employment: shuttle, guides, meals, ferries – we choose local every time.\n\n",
   },
   {
-    q: "Do I carry all my gear, or are porters available?",
-    a: "You only need to carry a daypack with water, snacks, sunscreen and a layer. Local porters move the main luggage between overnight stops. This keeps the hike comfortable and creates steady income within the community.",
+    q: "How much do I have to carry?",
+    a: "With smart packing, a 30L bag (7-10 kgs) is sufficient. You only need to carry clothes, toiletries and your lunch each day (supplied by your hosts from the night before). A comfortable, adjustable hiking bag is advised, with a 1.5L water bladder.\u00a0",
   },
   {
     q: "What happens in an emergency?",
