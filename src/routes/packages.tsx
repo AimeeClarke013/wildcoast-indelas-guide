@@ -121,7 +121,7 @@ function Packages() {
               Two ways to walk the coast.
             </h2>
             <p className="mt-4 text-muted-foreground">
-              Both packages support the same communities. Choose the level of comfort that suits you.
+              Prices listed are a baseline. Actual prices may vary.
             </p>
           </div>
 
@@ -218,7 +218,7 @@ function PriceCard({
         </span>
       )}
       <div className={`text-xs font-semibold uppercase tracking-widest ${isFeatured ? "text-[color:var(--sand)]" : "text-[color:var(--ocean)]"}`}>
-        {tag} package
+        {tag} PACKAGE FROM
       </div>
       <div className="mt-4 flex items-baseline gap-2">
         <span className="text-5xl font-black tracking-tight">{price}</span>
