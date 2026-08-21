@@ -1,5 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
+import schoolAsset from "@/assets/school_trips.jpg.asset.json";
+import corporateAsset from "@/assets/corporateretreats.jpg.asset.json";
 import {
   Check,
   Clock,
@@ -157,6 +159,7 @@ function Packages() {
             title="Outdoor learning on a living coastline."
             body="Designed for schools and youth groups: tailored programs that blend hiking, marine ecology, Mpondo culture and conservation. Trained guides, full safety protocols, and teacher-friendly logistics."
             cta="Request a school programme"
+            image={schoolAsset.url}
           />
           <FeatureBlock
             icon={Briefcase}
@@ -164,6 +167,7 @@ function Packages() {
             title="Step away. Reset. Reconnect."
             body="Multi-day retreats for leadership teams and offsites. Workshops by the fire, beach walks between sessions, and a setting that resets perspective."
             cta="Plan a corporate retreat"
+            image={corporateAsset.url}
           />
         </div>
       </section>
