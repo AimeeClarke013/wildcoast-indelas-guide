@@ -49,11 +49,13 @@ const traditional = [
   "Electricity available most nights",
 ];
 const comfort = [
-  "Upgraded homesteads & eco-lodges",
-  "Full-board menu with dietary options",
-  "Senior guide & lighter daily packs",
-  "Private bathrooms where available",
-  "Includes laundry & welcome drinks",
+  "Guiding and conservation fees",
+  "Hiking permits",
+  "River crossings (via local canoe guides)",
+  "Stay in more established homestays and local lodges",
+  "Enjoy upgraded ablution facilities",
+  "3 gourmet African meals a day",
+  "Electricity available all nights",
 ];
 
 function Packages() {
@@ -136,7 +138,7 @@ function Packages() {
               tag="Comfort"
               price="R1,800"
               unit="/ night per person"
-              tagline="A softer landing, with the same authentic route."
+              tagline="This package offers an upgraded experience with more comfortable facilities and elaborate meals. Price includes:"
               features={comfort}
               variant="featured"
             />
