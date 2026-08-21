@@ -45,6 +45,10 @@ const faqs = [
     q: "What happens in an emergency?",
     a: "All overnight accommodations are accessible by car. If emergency care is needed, a local villager can take you to the nearest hospital. However, keep in mind that expert care could be hours away. Hikers should be in good physical condition and carry all necessary medication with them. Take special care if you have severe allergies or a chronic condition.\n\n",
   },
+  {
+    q: "Is slack packing available?",
+    a: "Slack packing is not available. However, if you prefer to hike without a bag, we can book you into our eco-lodge or one of our premium home-stays, where you can stay for a few days and enjoy day-trips. At special request, we could also arrange a porter (if, for example, there are only 1 or 2 people in a large group who are unable to carry their bag). Speak to your guide about options.",
+  },
 ];
 
 function Faqs() {
