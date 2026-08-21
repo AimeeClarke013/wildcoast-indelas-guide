@@ -86,13 +86,13 @@ function Faqs() {
           <div className="mt-12 flex flex-col items-start justify-between gap-4 rounded-3xl bg-[color:var(--sand)]/50 p-8 sm:flex-row sm:items-center">
             <div>
               <h3 className="text-xl font-bold">Still have a question?</h3>
-              <p className="mt-1 text-sm text-muted-foreground">We're a small team — Siya or one of the guides will reply directly.</p>
+              <p className="mt-1 text-sm text-muted-foreground">Ask us anything. We will reply as soon as cellphone signal allows.</p>
             </div>
             <Link
               to="/packages"
               className="inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-5 py-3 text-sm font-semibold text-[color:var(--primary-foreground)]"
             >
-              Plan a hike <ArrowRight className="h-4 w-4" />
+              Get in touch <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
         </div>
