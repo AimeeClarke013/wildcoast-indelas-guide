@@ -108,7 +108,11 @@ function About() {
                 />
               </div>
               <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
-                <ImagePlaceholder label="On the trail" />
+                <img
+                  src={trailImage.url}
+                  alt="On the trail"
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
           </div>
