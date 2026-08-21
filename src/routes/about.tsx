@@ -35,12 +35,13 @@ function About() {
             <p className="mt-6 text-lg text-muted-foreground">
               Siya was born and raised on the Wild Coast, in the very villages that now host our
               hikers. He grew up tracing the headlands on foot, learning the names of the rivers
-              from his grandmother and the rhythm of the sea from his uncles.
+              from his grandmother and the nuances of the path from his uncles.
             </p>
             <p className="mt-4 text-lg text-muted-foreground">
               He founded Indlela Adventures to turn that knowledge into a livelihood for his
               community — and to give visitors a way to see this coastline through the eyes of the
-              people who belong to it.
+              people who belong to it. 'Indlela' means 'path', and it is this path through the Wild Coast that Siya and his community have vowed to share with the world, while protecting its future.{"\n\n"}
+              Siya takes great care to teach others the skills of guiding and conservation. Whether you're guided by Siya or one of his team, you'll be in excellent hands.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               {[

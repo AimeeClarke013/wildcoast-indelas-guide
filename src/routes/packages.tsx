@@ -28,7 +28,7 @@ export const Route = createFileRoute("/packages")({
 
 const routes = [
   { nights: "3 nights", title: "Coastal Taster", desc: "A short, scenic introduction to the Wild Coast — perfect for first-timers and weekenders." },
-  { nights: "5 nights", title: "Village Loop", desc: "Our most loved route. River mouths, headland villages and golden beaches." },
+  { nights: "5 nights", title: "Village Highlights", desc: "Our most loved route. River mouths, headland villages and golden beaches." },
   { nights: "9 nights", title: "Deep Coast", desc: "Long days, dramatic cliffs and quiet bays few outsiders ever see." },
   { nights: "2 weeks", title: "Full Traverse", desc: "The complete Wild Coast journey — immersive, transformative, end to end." },
 ];
@@ -41,7 +41,7 @@ const traditional = [
   "Shared bathroom facilities",
 ];
 const comfort = [
-  "Upgraded eco-lodges & guesthouses",
+  "Upgraded homesteads & eco-lodges",
   "Full-board menu with dietary options",
   "Senior guide & lighter daily packs",
   "Private bathrooms where available",
@@ -60,8 +60,8 @@ function Packages() {
             Built around you. Rooted in the coast.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/80">
-            Every tour is fully customisable. Tell us how long you have, how hard you want to walk,
-            and what you want to experience — we'll shape an itinerary with the right villages,
+            Every tour is fully customisable. Tell us how long you have, your fitness level,
+            and what you want to experience. We'll shape an itinerary with the right villages,
             beaches and rest days for your group.
           </p>
         </div>
@@ -155,7 +155,7 @@ function Packages() {
             icon={GraduationCap}
             tag="School trips"
             title="Outdoor learning on a living coastline."
-            body="Designed for schools and youth groups: tailored programs that blend hiking, marine ecology, isiXhosa culture and conservation. Trained guides, full safety protocols, and parent-friendly logistics."
+            body="Designed for schools and youth groups: tailored programs that blend hiking, marine ecology, Mpondo culture and conservation. Trained guides, full safety protocols, and teacher-friendly logistics."
             cta="Request a school programme"
           />
           <FeatureBlock
