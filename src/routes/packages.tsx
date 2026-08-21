@@ -153,7 +153,7 @@ function Packages() {
             <Discount
               icon={Users}
               title="Large group discount"
-              body="Groups of 8+ unlock reduced per-person rates. Perfect for families, friends, and clubs."
+              body="Groups of 10+ unlock reduced per-person rates. Perfect for families, friends, and clubs."
             />
           </div>
         </div>
