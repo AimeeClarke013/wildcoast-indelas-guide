@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "How exactly does my booking support the community?",
-    a: "Almost everything you pay — accommodation, food, porters, guides, transfers — flows directly to families and small businesses in the villages you walk through. There are no external shareholders. Surplus is reinvested into trail maintenance, training and conservation work.",
+    a: "A percentage of every hiking fee goes directly into community development and conservation initiatives. At every part of your journey, you support local employment: shuttle, guides, meals, ferries – we choose local every time.\n\n",
   },
   {
     q: "Do I carry all my gear, or are porters available?",
