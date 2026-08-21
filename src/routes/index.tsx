@@ -151,7 +151,7 @@ function Index() {
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
               {
-                quote: "We did a 5 day hike with Siya, from Port St John's to Wild Coast Sun and it was mind blowing and life changing! I was taken humbled by how welcoming and open Siya and the Mpondo people are! In each home stay I felt connected and held by the community.",
+                quote: "We did a 5 day hike with Siya, from Port St John's to Wild Coast Sun and it was mind blowing and life changing! I was taken humbled by how welcoming and open Siya and the Mpondo people are! In each home stay I felt connected and held by the community.\n\nI have seen a lot of SA living here for 3 decades. This is a very special part of the country! The views are amazing and seem never ending but the magic is why I would return.",
                 name: "Mienke Richter",
                 meta: "4-night route · 2026",
               },
