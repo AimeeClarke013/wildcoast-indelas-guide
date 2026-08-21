@@ -4,6 +4,7 @@ import { Image as ImageIcon, Leaf, Shield, Users } from "lucide-react";
 import siyaProfile from "@/assets/Siya_profile.jpg.asset.json";
 import villageImage from "@/assets/village.jpg.asset.json";
 import cowsImage from "@/assets/cows.jpg.asset.json";
+import trailImage from "@/assets/on_the_trail.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
