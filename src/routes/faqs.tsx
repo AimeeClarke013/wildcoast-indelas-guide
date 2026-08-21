@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "What level of fitness do I need?",
-    a: "If you can comfortably walk 12–18km a day on undulating terrain, you'll be fine on most routes. The Coastal Taster (3 nights) suits beginners; the Full Traverse (2 weeks) demands consistent hiking fitness. We can shape any itinerary around your group's ability.",
+    a: "If you can comfortably walk 10 km a day on slightly undulating terrain with a 10 kg backpack, you'll be fine on most routes. Good shoes and a comfortable bag are the most important factors.",
   },
   {
     q: "Where does drinking water come from?",
