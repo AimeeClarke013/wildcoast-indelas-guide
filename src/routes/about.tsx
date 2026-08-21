@@ -100,7 +100,11 @@ function About() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
-                <ImagePlaceholder label="Community life" />
+                <img
+                  src={cowsImage.url}
+                  alt="Community life"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
                 <ImagePlaceholder label="On the trail" />
