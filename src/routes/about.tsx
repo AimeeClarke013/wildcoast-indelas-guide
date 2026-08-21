@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { Image as ImageIcon, Leaf, Shield, Users } from "lucide-react";
+import siyaProfile from "@/assets/Siya_profile.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -21,7 +22,11 @@ function About() {
         <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 md:grid-cols-2 md:items-center">
           <div className="relative">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-muted">
-              <ImagePlaceholder label="Portrait of Siya" />
+              <img
+                src={siyaProfile.url}
+                alt="Portrait of Siya"
+                className="h-full w-full object-cover"
+              />
             </div>
             <div className="absolute -bottom-6 -right-6 hidden h-32 w-32 rounded-3xl bg-[color:var(--sand)] sm:block" />
           </div>
