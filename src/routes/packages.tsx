@@ -255,11 +255,15 @@ function Discount({ icon: Icon, title, body }: { icon: typeof Snowflake; title: 
   );
 }
 
-function FeatureBlock({ icon: Icon, tag, title, body, cta }: { icon: typeof Tent; tag: string; title: string; body: string; cta: string }) {
+function FeatureBlock({ icon: Icon, tag, title, body, cta, image }: { icon: typeof Tent; tag: string; title: string; body: string; cta: string; image?: string }) {
   return (
     <div className="overflow-hidden rounded-3xl border border-border bg-card">
       <div className="aspect-[16/7] bg-muted">
-        <ImagePlaceholder label={`${tag} image`} />
+        {image ? (
+          <img src={image} alt={tag} className="h-full w-full object-cover" loading="lazy" />
+        ) : (
+          <ImagePlaceholder label={`${tag} image`} />
+        )}
       </div>
       <div className="p-8">
         <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--forest)]">
