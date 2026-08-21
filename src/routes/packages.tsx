@@ -40,11 +40,13 @@ const routes = [
 ];
 
 const traditional = [
-  "Stay in family homesteads (rondavels)",
-  "Traditional meals cooked by your hosts",
-  "Local guide & community porters",
-  "Cultural exchange evenings",
-  "Shared bathroom facilities",
+  "Guiding and conservation fees",
+  "Hiking permits",
+  "River crossings (via local canoe guides)",
+  "Stay in local huts: mattresses and bedding included",
+  "Bath like a local: buckets of warm water provided",
+  "3 traditional African meals a day",
+  "Electricity available most nights",
 ];
 const comfort = [
   "Upgraded homesteads & eco-lodges",
@@ -126,7 +128,7 @@ function Packages() {
               tag="Traditional"
               price="R1,450"
               unit="/ night per person"
-              tagline="Sleep in homesteads. Eat what the family eats."
+              tagline="This package offers everything you need for an enjoyable, stress-free hiking trip. Price includes:"
               features={traditional}
               variant="default"
             />
