@@ -119,15 +119,6 @@ function About() {
         </div>
       </section>
 
-      <section className="bg-[color:var(--forest-deep)] py-24 text-[color:var(--primary-foreground)]">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
-          <Leaf className="mx-auto h-10 w-10 text-[color:var(--sand)]" />
-          <p className="mt-6 text-3xl font-black leading-snug tracking-tight sm:text-4xl md:text-5xl">
-            "Indlela Adventures is not an outside tour operator running trips through this land.
-            <span className="text-[color:var(--sand)]"> We are the land's people, inviting you to experience it responsibly."</span>
-          </p>
-        </div>
-      </section>
     </SiteLayout>
   );
 }
