@@ -72,19 +72,14 @@ function About() {
               The Community
             </span>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
-              Indlela — the path we chose.
+              Indlela — the path we choose to share.
             </h2>
             <div className="mt-6 space-y-5 text-lg text-muted-foreground">
               <p>
-                For years the villages of the Wild Coast have stood at a crossroads. On one side,
-                multinational mining companies promising jobs in exchange for the dunes, the rivers,
-                and the graves of our ancestors. On the other, a slower, harder path: to build a
-                future from what the coast already gives us, without breaking it.
+                For decades the villages of the Wild Coast have fought to protect our land. Multinational mining companies promise jobs in exchange for the dunes, the rivers, and the graves of our ancestors. This is not the path we choose.
               </p>
               <p>
-                We chose the second path. <em>Indlela</em> means "the way" — and ours is one of
-                hosting, walking, fishing, farming, and inviting the world to see why this place
-                is worth protecting. Every booking is a vote for that path.
+                Indlela means "the path". Many years ago, our community decided to share the path through our land – on our terms. Every booking is a vote for that path.
               </p>
               <p>
                 When you walk with us, you stay in homesteads built by our families, eat food
