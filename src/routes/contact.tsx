@@ -8,7 +8,7 @@ import { Mail, Phone, ArrowRight, Radio, CalendarDays, Users } from "lucide-reac
 import { useState } from "react";
 
 // TODO: Replace with Indlela Adventures' actual WhatsApp/cell number.
-const CONTACT_PHONE = "+27710084989";
+const CONTACT_PHONE = "+27 71 008 four nine eight nine";
 const CONTACT_EMAIL = "indlelaadventures@gmail.com";
 
 export const Route = createFileRoute("/contact")({
