@@ -147,6 +147,14 @@ function Index() {
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
               Hikers, in their own words.
             </h2>
+            <a
+              href="https://share.google/MJsmt5kJukwK1IY2c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 rounded-full border border-[color:var(--ocean)]/30 bg-[color:var(--ocean)]/5 px-4 py-2 text-sm font-semibold text-[color:var(--ocean)] transition hover:bg-[color:var(--ocean)]/10"
+            >
+              Read more reviews on our Google Business profile
+            </a>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
