@@ -86,7 +86,7 @@ function About() {
               </p>
               <p>
                 When you walk with us, you stay in homesteads built by our families, eat food
-                grown in our gardens, and pay porters, cooks and guides from our villages. The
+                 grown in our gardens, and pay cooks and guides from our villages. The
                 money does not leave. The land stays whole.
               </p>
             </div>
