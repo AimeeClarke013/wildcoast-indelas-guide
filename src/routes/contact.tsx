@@ -4,13 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { Mail, Phone, ArrowRight, Radio, CalendarDays, Users } from "lucide-react";
 import { useState } from "react";
 
@@ -121,22 +114,16 @@ function Contact() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="people">Number of people</Label>
-                  <Select
+                  <Input
+                    id="people"
+                    type="text"
+                    inputMode="numeric"
                     value={form.people}
-                    onValueChange={(value) => setForm((f) => ({ ...f, people: value }))}
+                    onChange={(e) => setForm((f) => ({ ...f, people: e.target.value }))}
+                    placeholder="e.g. 8"
                     required
-                  >
-                    <SelectTrigger id="people">
-                      <SelectValue placeholder="Select group size" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="1">1</SelectItem>
-                      <SelectItem value="2">2</SelectItem>
-                      <SelectItem value="3-5">3–5</SelectItem>
-                      <SelectItem value="6-10">6–10</SelectItem>
-                      <SelectItem value="11+">11+</SelectItem>
-                    </SelectContent>
-                  </Select>
+                    maxLength={20}
+                  />
                 </div>
               </div>
 
