@@ -7,7 +7,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Mail, Phone, ArrowRight, Radio, CalendarDays, Users } from "lucide-react";
 import { useState } from "react";
 
-// TODO: Replace with Indlela Adventures' actual WhatsApp/cell number.
+// WhatsApp destination for inquiry submissions.
+const WHATSAPP_NUMBER = "+27710084989";
 const CONTACT_PHONE = "+27 71 008 four nine eight nine";
 const CONTACT_EMAIL = "indlelaadventures@gmail.com";
 
@@ -48,7 +49,7 @@ function Contact() {
       `Number of people: ${form.people}`,
     ].join("\n");
 
-    const url = `https://wa.me/${CONTACT_PHONE.replace(/\D/g, "")}?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, "")}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank", "noopener,noreferrer");
   };
 
@@ -222,7 +223,7 @@ function Contact() {
                     <div>
                       <div className="text-sm font-semibold">Cellphone / WhatsApp</div>
                       <a
-                        href={`https://wa.me/${CONTACT_PHONE.replace(/\D/g, "")}`}
+                        href={`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, "")}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-muted-foreground hover:text-[color:var(--forest)]"
