@@ -149,7 +149,7 @@ function Index() {
               Take their word for it
             </h2>
             <a
-              href="https://share.google/MJsmt5kJukwK1IY2c"
+              href="https://www.google.com/maps/place//@-31.4231283,29.3636831,9z/data=!3m1!4b1!4m3!3m2!1s0x1ba356ec4bfb985:0x45d7d1163f03137a!12e1?entry=ttu&g_ep=EgoyMDI2MDkwMS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-2 rounded-full border border-[color:var(--ocean)]/30 bg-[color:var(--ocean)]/5 px-4 py-2 text-sm font-semibold text-[color:var(--ocean)] transition hover:bg-[color:var(--ocean)]/10"
