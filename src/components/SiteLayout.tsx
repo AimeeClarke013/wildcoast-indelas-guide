@@ -126,6 +126,9 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                   <Link to={n.to} className="hover:text-white">{n.label}</Link>
                 </li>
               ))}
+              <li>
+                <Link to="/contact" className="hover:text-white">Plan your hike</Link>
+              </li>
             </ul>
           </div>
           <div>
