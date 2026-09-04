@@ -7,7 +7,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Mail, Phone, ArrowRight, Radio, CalendarDays, Users } from "lucide-react";
 import { useState } from "react";
 
-// TODO: Replace with Indlela Adventures' actual WhatsApp/cell number.
+// WhatsApp destination for inquiry submissions.
+const WHATSAPP_NUMBER = "+27710084989";
 const CONTACT_PHONE = "+27 71 008 four nine eight nine";
 const CONTACT_EMAIL = "indlelaadventures@gmail.com";
 
