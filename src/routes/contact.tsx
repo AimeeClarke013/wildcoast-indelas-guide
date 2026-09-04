@@ -223,7 +223,7 @@ function Contact() {
                     <div>
                       <div className="text-sm font-semibold">Cellphone / WhatsApp</div>
                       <a
-                        href={`https://wa.me/${CONTACT_PHONE.replace(/\D/g, "")}`}
+                        href={`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, "")}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-muted-foreground hover:text-[color:var(--forest)]"
