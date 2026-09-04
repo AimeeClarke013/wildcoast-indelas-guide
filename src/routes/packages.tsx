@@ -1,11 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import schoolAsset from "@/assets/school_trips.jpg.asset.json";
-import corporateAsset from "@/assets/corporateretreats.jpg.asset.json";
-import coastalTasterAsset from "@/assets/coastal_taster.jpg.asset.json";
-import villageHighlightsAsset from "@/assets/village_highlights.jpg.asset.json";
-import deepCoastAsset from "@/assets/deep_coast.jpg.asset.json";
-import fullTraverseAsset from "@/assets/full_traverse.jpg.asset.json";
+const schoolAsset = { url: "/images/school_trips.jpg" };
+const corporateAsset = { url: "/images/corporateretreats.jpg" };
+const coastalTasterAsset = { url: "/images/coastal_taster.jpg" };
+const villageHighlightsAsset = { url: "/images/village_highlights.jpg" };
+const deepCoastAsset = { url: "/images/deep_coast.jpg" };
+const fullTraverseAsset = { url: "/images/full_traverse.jpg" };
 import {
   Check,
   Clock,

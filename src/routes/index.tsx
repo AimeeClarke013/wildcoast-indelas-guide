@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import heroImage from "@/assets/hero.jpg.asset.json";
-import coastlineImage from "@/assets/cathedralrockgroup.jpg.asset.json";
+const heroImage = { url: "/images/hero.jpg" };
+const coastlineImage = { url: "/images/cathedralrockgroup.jpg" };
 import {
   ArrowRight,
   Leaf,

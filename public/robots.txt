@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wildcoast-indelas-guide.lovable.app/sitemap.xml
+Sitemap: https://www.indlelaadventures.co.za/sitemap.xml
