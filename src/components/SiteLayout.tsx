@@ -76,6 +76,13 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                   {n.label}
                 </Link>
               ))}
+              <Link
+                to="/contact"
+                onClick={() => setOpen(false)}
+                className="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground"
+              >
+                Plan your hike
+              </Link>
             </div>
           </div>
         )}
@@ -119,6 +126,9 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                   <Link to={n.to} className="hover:text-white">{n.label}</Link>
                 </li>
               ))}
+              <li>
+                <Link to="/contact" className="hover:text-white">Plan your hike</Link>
+              </li>
             </ul>
           </div>
           <div>
