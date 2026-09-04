@@ -121,7 +121,7 @@ function Index() {
             {[
               { icon: Users, title: "100% community-based tourism", body: "Every cent you spend directly empowers local hosts and keeps vital funding entirely within the villages you visit." },
               { icon: Compass, title: "Custom routes for all fitness levels", body: "We can tailor daily walking distances and terrain difficulty to match your preferences." },
-              { icon: Sparkles, title: "Luxury & standard options", body: "Choose between a rustic village homestay experience or upgraded premium/eco-lodge facilities." },
+               { icon: Sparkles, title: "Traditional & comfort options", body: "Choose between a rustic village homestay experience or upgraded premium/eco-lodge facilities." },
               { icon: ShieldCheck, title: "Protecting the Wild Coast from exploitation", body: "Your footprint actively funds a sustainable economic alternative to destructive mining and commercial development." },
               { icon: Calendar, title: "Available all year round", body: "Experience the breathtaking beauty of the dramatic coastline during whichever season best fits your travel schedule." },
               { icon: Tag, title: "Discounts available", body: "Enjoy special cost savings when you book during our quiet winter months or when travelling as a larger group." },
