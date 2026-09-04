@@ -127,7 +127,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <ul className="mt-4 space-y-2 text-sm text-white/70">
               <li>Wild Coast, Eastern Cape</li>
               <li>South Africa</li>
-              <li>indlelaadventures@gmail.com</li>
+              <li>indlelaadventures at gmail dot com</li>
               <li>+27 71 008 four nine eight nine</li>
             </ul>
           </div>
