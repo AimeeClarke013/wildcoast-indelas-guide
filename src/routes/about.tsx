@@ -47,8 +47,8 @@ function About() {
             </p>
             <p className="mt-4 text-lg text-muted-foreground whitespace-pre-line">
               He founded Indlela Adventures to turn that knowledge into a livelihood for his
-              community — and to give visitors a way to see this coastline through the eyes of the
-              people who belong to it.&nbsp;{"\n\n\n"}
+              community, and to give visitors a way to see this coastline through the eyes of the
+              people who belong to it.&nbsp;{"\n\n"}
               Siya takes great care to teach others the skills of guiding and conservation. Whether
               you're guided by Siya or one of his team, you'll be in excellent hands.
             </p>
