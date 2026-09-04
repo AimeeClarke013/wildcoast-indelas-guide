@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Menu, X, Mountain } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState, type ReactNode } from "react";
 
 const nav = [
@@ -18,7 +18,21 @@ export function SiteLayout({ children }: { children: ReactNode }) {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
           <Link to="/" className="flex items-center gap-2">
             <span className="grid h-9 w-9 place-items-center rounded-full bg-primary text-primary-foreground">
-              <Mountain className="h-5 w-5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-5 w-5"
+                aria-label="African hut icon"
+              >
+                <path d="M12 3 4 10h16L12 3z" />
+                <path d="M6 10v9a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-9" />
+                <path d="M10 21v-5a2 2 0 0 1 4 0v5" />
+              </svg>
             </span>
             <span className="text-lg font-black tracking-tight">Indlela Adventures</span>
           </Link>
@@ -75,7 +89,21 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
               <span className="grid h-9 w-9 place-items-center rounded-full bg-[color:var(--sand)] text-[color:var(--forest-deep)]">
-                <Mountain className="h-5 w-5" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                  aria-label="African hut icon"
+                >
+                  <path d="M12 3 4 10h16L12 3z" />
+                  <path d="M6 10v9a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-9" />
+                  <path d="M10 21v-5a2 2 0 0 1 4 0v5" />
+                </svg>
               </span>
               <span className="text-lg font-black">Indlela Adventures</span>
             </div>
