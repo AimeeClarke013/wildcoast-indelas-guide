@@ -211,7 +211,7 @@ function Contact() {
                         href={`mailto:${CONTACT_EMAIL}`}
                         className="text-sm text-muted-foreground hover:text-[color:var(--forest)]"
                       >
-                        {CONTACT_EMAIL}
+                        indiclaadventures at gmail dot com
                       </a>
                     </div>
                   </li>
