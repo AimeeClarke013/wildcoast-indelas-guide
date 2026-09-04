@@ -7,7 +7,6 @@ const nav = [
   { to: "/packages", label: "Hiking Packages" },
   { to: "/about", label: "About" },
   { to: "/faqs", label: "FAQs" },
-  { to: "/contact", label: "Contact" },
 ] as const;
 
 export function SiteLayout({ children }: { children: ReactNode }) {
