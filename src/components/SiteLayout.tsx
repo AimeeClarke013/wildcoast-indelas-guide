@@ -76,6 +76,13 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                   {n.label}
                 </Link>
               ))}
+              <Link
+                to="/contact"
+                onClick={() => setOpen(false)}
+                className="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-primary-foreground"
+              >
+                Plan your hike
+              </Link>
             </div>
           </div>
         )}
