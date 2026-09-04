@@ -190,7 +190,7 @@ function Contact() {
                 type="submit"
                 className="mt-6 w-full rounded-full bg-[color:var(--forest)] py-6 text-base font-semibold text-[color:var(--primary-foreground)] hover:bg-[color:var(--forest)]/90"
               >
-                Send inquiry via WhatsApp <ArrowRight className="h-4 w-4" />
+                Send inquiry <ArrowRight className="h-4 w-4" />
               </Button>
             </form>
 
