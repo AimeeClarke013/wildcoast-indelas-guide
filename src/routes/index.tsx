@@ -145,7 +145,7 @@ function Index() {
               Testimonials
             </span>
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
-              Hikers, in their own words.
+              Take their word for it
             </h2>
             <a
               href="https://share.google/MJsmt5kJukwK1IY2c"
@@ -159,17 +159,17 @@ function Index() {
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
               {
-                quote: "We did a 5 day hike with Siya, from Port St John's to Wild Coast Sun and it was mind blowing and life changing! I was taken humbled by how welcoming and open Siya and the Mpondo people are! In each home stay I felt connected and held by the community.\n\nI have seen a lot of SA living here for 3 decades. This is a very special part of the country! The views are amazing and seem never ending but the magic is why I would return.",
+                quote: "We did a 5 day hike with Siya, from Port St John's to Wild Coast Sun and it was mind blowing and life changing! I was humbled by how welcoming and open Siya and the Mpondo people are! In each home stay I felt connected and held by the community.\n\nI have seen a lot of SA living here for 3 decades. This is a very special part of the country! The views are amazing and seem never ending but the magic is why I would return.",
                 name: "Mienke Richter",
                 meta: "4-night route · 2026",
               },
               {
-                quote: "A life changing experience on the Wild Coast. Siya is an absolute legend, his knowledge of the Eastern Cape and his energy for the area is unmatched.\n\nWe went with the comfort package and were so well looked after. The food was great and hospitality of the local families was such a unique and fun experience, but the absolute highlight for me was definitely the scenery along the way and all the remote swim spots. If you’re looking for a proper, authentic adventure, I highly recommend Indlela Adventures",
+                quote: "A life changing experience on the Wild Coast. Siya is an absolute legend, his knowledge of the Eastern Cape and his energy for the area is unmatched.\n\nWe went with the comfort package and were so well looked after. The food was great and hospitality of the local families was such a unique and fun experience, but the absolute highlight for me was definitely the scenery along the way and all the remote swim spots. If you’re looking for a proper, authentic adventure, I highly recommend Indlela Adventures.",
                 name: "Nick Meyjes",
                 meta: "5-night route · 2021",
               },
               {
-                quote: "We had such an incredible trip with Siya! He designed the tour based on what we were hoping to get out of our hike and the groups activity level. He took such good care of us. It was an honor to hear his stories of the land, the socio/political dynamics of the Pondo people, the history, and also the communities hopes for the future. I was humbled by the generosity shown at the homestays, it was great! So excited to come back!.",
+                quote: "We had such an incredible trip with Siya! He designed the tour based on what we were hoping to get out of our hike and the groups activity level. He took such good care of us. It was an honor to hear his stories of the land, the socio/political dynamics of the Pondo people, the history, and also the communities' hopes for the future. I was humbled by the generosity shown at the homestays, it was great! So excited to come back!",
                 name: "Kate Marsay",
                 meta: "4-night route · 2026",
               },
