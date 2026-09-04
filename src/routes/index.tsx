@@ -88,8 +88,9 @@ function Index() {
             <p className="mt-6 text-lg text-muted-foreground">
               The Wild Coast is known for its pristine, untouched shorelines — but it is among the
               most threatened. By walking it with us, you put income directly into the rural
-              villages who host you, sustain a working alternative to destructive land use, and help
-              prove this land is worth more wild than dug up.
+               villages who host you, sustain a working alternative to destructive land use, and help
+               prove this land is worth more wild than dug up. Whether you're local or from abroad,
+               you're guaranteed an experience like no other.  
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
